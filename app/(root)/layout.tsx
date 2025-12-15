@@ -6,7 +6,7 @@ const layout = ({ children }: { children : React.ReactNode}) => {
     <main className="min-h-screen text-gray-400">
         {/* Header */}
         <Header />
-        <div className="conainer py-10">
+        <div className="container py-10">
             {children}
         </div>
     </main>
